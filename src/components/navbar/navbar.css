@@ -1,0 +1,23 @@
+.navbar{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    z-index: 2;
+    background-image: radial-gradient(100% 100% at 100% 0, #f0754c 0, #FB490F 100%);
+}
+
+.nav-links ul{
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul a li{
+    color: #fff;
+}
